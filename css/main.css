@@ -1,0 +1,31 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+
+
+.mi-navbar .nav-link,
+.mi-navbar .navbar-brand {
+  color: #fff !important; 
+  transition: color 0.3s ease !important; 
+}
+
+.mi-navbar .nav-link:hover,
+.mi-navbar .navbar-brand:hover {
+  color: #00bfff !important; 
+}
+
+
