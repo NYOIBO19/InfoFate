@@ -5,18 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>InfoFate</title>
+    <link rel="shortcut icon" href="./imagenes/Fotodelapagina.webp" type="image/x-icon">
     <link rel="stylesheet" href="./css/main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
 </head>
 <body>
-    
+    <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark mi-navbar">
         <div class="container">
-          <a class="navbar-brand mi-navbar" href="index.html">InfoFate</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            
-            <svg xmlns="http://www.w3.org/2000/svg" height=2rem fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" >
+            <a class="navbar-brand mi-navbar" href="index.html">InfoFate</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" height=2rem fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" >
                 <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
               </svg>
               
@@ -38,9 +39,54 @@
           </div>
         </div>
       </nav>
+    </header>
+
+    <div class="fondo">
+    <strong>
+        <h1 class="texto centro">Bienvenido a InfoFate</h1>
+            <p class="texto centro">
+                Esta es una pagina que esta hecha para que la gente que no conozca sobre el anime de fate se puedan informar del mismo sin tener que estar por todos lados la informacion sobre cada cosa, Aca abajo te dejo elegir con que queres empezar. Se recomienda empezar con Fate/Stay Night
+            </p>
+    </strong>
+    </div>
+    
+
+ <section>
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+                <a href="./subpaginas/fate_staynight.html">
+                <img src="./imagenes/Fate-stay-night.jpg" class="d-flex align-items-center justify-content-center w-10 h-10 mx-auto" alt="Fate/Stay Night">
+                </a>
+          </div>
+          <div class="carousel-item" data-bs-interval="10000">
+                <a href="./subpaginas/fate_grandorder.html">
+                <img src="./imagenes/image.png" class="d-flex align-items-center justify-content-center w-10 h-10 mx-auto" alt="Fate/GrandOrder">
+                </a>
+          </div>
+          <div class="carousel-item" data-bs-interval="10000">
+                <a href="./subpaginas/fate_extra.html">
+                <img src="./imagenes/Fate-Extra.webp" class="d-flex align-items-center justify-content-center w-10 h-10 mx-auto" alt="Fate/Extra"> 
+                </a>
+          </div>
+          <div class="carousel-item" data-bs-interval="10000">
+                <a href="./subpaginas/fate_strangefake.html">
+                <img src="./imagenes/fate-strange-fake.png" class="d-flex align-items-center justify-content-center w-10 h-10 mx-auto" alt="Fate/StrangeFake">
+                </a>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</section>
 
 
- <h1>Hello, world!</h1>
 
     
     

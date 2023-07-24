@@ -7,6 +7,29 @@
     font-family: "Poppins", sans-serif;
 }
 
+body {
+    background-color: black !important;
+}
+
+.fondo {
+    background-color: grey;
+}
+
+.centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto {
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.texto:hover {
+    color: #00bfff;
+}
+
 .navbar-toggler {
     border: none !important;
 }
@@ -14,7 +37,6 @@
 .navbar-toggler:focus {
     box-shadow: none !important;
 }
-
 
 
 .mi-navbar .nav-link,
